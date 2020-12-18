@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nouf's Blog</title>
+    <link rel="icon" href="images/logo.png">
+    <!-- CSS files -->
+    <link rel="stylesheet" href="blog-style.css">
+    <!-- google fonts -->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:ital,wght@0,400;1,300&display=swap" rel="stylesheet">
+    <!-- font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+        integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA=="
+        crossorigin="anonymous" />
+</head>
+
+<body>
+    <section class="blog-grid-container">
+        <!-- navigation bar -->
+        <nav class="blog-nav">
+            <img src="images/logo.png" alt="blog-logo">
+            <a href="#">HOME</a>
+            <a href="#blog-content">POSTS</a>
+            <a href="#footer">CONTACT</a>
+        </nav>
+        <!-- header -->
+        <header class="blog-header">
+            <section class="blog-header__content">
+                <h1>A front-end web developer, <br> Love to share knowledge and <br> spread the technical best practices
+                </h1>
+            </section>
+            <section class="blog-header__subscribe">
+                <b>
+                    Subscribe
+                </b>
+                <input type="email" name="email" id="subscribe-email" placeholder="Email">
+            </section>
+        </header>
+        <!-- content -->
+        <section class="blog-content-row">
+            <h2 class="blog-content__title">TOP POSTS</h2>
+            <main class="blog-content" id="blog-content">
+                <section class="blog-content__card">
+                    <h3 class="blog-card__title">How To Get Started With Web Development
+                    </h3>
+                    <img src="https://www.vapulus.com/ar/wp-content/uploads/2019/01/%D9%85%D8%B7%D9%88%D8%B1-%D8%A7%D9%84%D9%88%D9%8A%D8%A8.jpg"
+                        alt="blog-post-image">
+                    <button class="blog-content__btn" onclick="location.href ='blog-post1.html';">Read more</button>
+                </section>
+                <section class="blog-content__card">
+                    <h3 class="blog-card__title">Best 20 Sourses To Learn CSS</h3>
+                    <img src="https://cdn.mos.cms.futurecdn.net/mexHbiWUEpMnLt4Ji8b2TR-1200-80.jpg"
+                        alt="blog-post-image">
+                    <button class="blog-content__btn" onclick="location.href ='blog-post1.html';">Read more</button>
+                </section>
+                <section class="blog-content__card">
+                    <h3 class="blog-card__title">Best Text Editors for Web Developers</h3>
+                    <img src="https://kinsta.com/wp-content/uploads/2019/01/best-text-editors.png"
+                        alt="blog-post-image">
+                    <button class="blog-content__btn" onclick="location.href ='blog-post1.html';">Read more</button>
+                </section>
+                <section class="blog-content__card">
+                    <h3 class="blog-card__title">Web Development and Security</h3>
+                    <img src="https://gbksoft.com/blog/wp-content/uploads/2018/01/2-984x555.jpg" alt="blog-post-image">
+                    <button class="blog-content__btn" onclick="location.href ='blog-post1.html';">Read more</button>
+                </section>
+            </main>
+        </section>
+        <!-- categories -->
+        <section class="blog-categories-row">
+            <h2 class="blog-categories__title">CATEGORIES</h2>
+            <section class="blog-categories">
+                <section class="blog-categories-section">
+                    <h3>HTML</h3>
+                    <section class="categories-section-logo">
+                        <i class="fas fa-code"></i>
+                    </section>
+                </section>
+                <section class="blog-categories-section">
+                    <h3>CSS</h3>
+                    <section class="categories-section-logo">
+                        <i class="fab fa-css3"></i>
+                    </section>
+                </section>
+                <section class="blog-categories-section">
+                    <h3>JS</h3>
+                    <section class="categories-section-logo">
+                        <i class="fab fa-node-js"></i>
+                    </section>
+                </section>
+                <section class="blog-categories-section">
+                    <h3>Python</h3>
+                    <section class="categories-section-logo">
+                        <i class="fab fa-python"></i>
+                    </section>
+                </section>
+            </section>
+        </section>
+
+        <!-- footer -->
+        <footer class="blog-footer" id="footer">
+            <h3>contact me</h3>
+            <i class="fab fa-twitter"></i>
+            <i class="fab fa-instagram"></i>
+            <i class="fas fa-envelope"></i>
+            <p>Nouf's blog ©2020 All Rights Reserved</p>
+        </footer>
+    </section>
+</body>
+
+</html>
